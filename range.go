@@ -26,7 +26,7 @@ func main() {
 	// range在map中迭代键值对
 	kvs := map[string]string{"a": "apple", "b": "banana"}
 	for k, v := range kvs{
-		fmt.Println("%s -> %s\n", k, v)
+		fmt.Printf("%s -> %s\n", k, v)
 
 
 	}
